@@ -3,6 +3,7 @@
   catalina_pid: /var/run/tomcat6.pid
   catalina_tmpdir: /var/cache/tomcat6/temp
   config_path: /etc/tomcat6/tomcat6.conf
+  config_source: 'puppet:///modules/tomcat/tomcat.conf'
   group: tomcat
   jasper_home: /usr/share/tomcat6
   java_home: /usr/lib/jvm/jre
